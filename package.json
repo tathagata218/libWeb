@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tathagata218/libWeb/issues"
   },
-  "homepage": "https://github.com/tathagata218/libWeb#readme"
+   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
