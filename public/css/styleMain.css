@@ -6,3 +6,7 @@ body {
 #navBar {
     background-color: Red;
 }
+
+#navStuff > ul > li{ 
+    color : white;
+}

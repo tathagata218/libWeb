@@ -12,10 +12,10 @@ app.use("/public", express.static("public"));
 
 
 app.get("/", function(req,res){
-    res.sendfile(path.join(__dirname,"./public/mainPage.html"));
+    res.sendFile(path.join(__dirname,"./public/mainPage.html"));
 });
 
 
 app.listen(PORT, function() {
-    console.log("its working!!"+ PORT)
+    console.log("its working!!  "+ PORT)
 });
