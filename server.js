@@ -11,9 +11,11 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use("/public", express.static("public"));
 
 
-app.
+app.get("/", function(req,res){
+    res.sendfile(path.join(__dirname,"./public/mainPage.html"));
+});
 
 
 app.listen(PORT, function() {
-    console.log("its working!!")
+    console.log("its working!!"+ PORT)
 });
