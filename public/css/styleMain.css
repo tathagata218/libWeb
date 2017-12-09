@@ -1,10 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
     margin : 0;
     padding : 0;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 #navBar {
-    background-color: Red;
+    background-color: rgb(255, 56, 56);
 }
 
 .navLinks {
@@ -25,7 +30,7 @@ body {
 }
 
 .navLinks a:hover {
-    background-color: black; 
+    background-color: rgb(216, 0, 0); 
 }
 
 #navLeft{
