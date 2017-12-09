@@ -7,22 +7,36 @@ body {
     background-color: Red;
 }
 
-#navLeft{
-    background-color: green;
-    display: flex;
+.navLinks {
+    list-style: none;
+    margin : 0;
+    display : flex;
+    padding : 0;
 }
 
-#navLeft ul a {
-text-decoration:  none;
-display: block;
+.navLinks a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+
 }
+
+.navLinks a:hover {
+    background-color: black; 
+}
+
+#navLeft{
+   display: flex;
+    
+}
+
+
 
 #navRight{
-    background-color: blue;
     display: flex;
+    justify-content: flex-end;
 }
 
-#navRight ul a {
-    text-decoration:  none;
-    display: block;
-    }
