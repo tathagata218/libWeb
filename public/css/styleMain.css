@@ -45,3 +45,7 @@ body {
     justify-content: flex-end;
 }
 
+#displaySection {
+    margin-top : 30px; 
+}
+
