@@ -7,17 +7,22 @@ body {
     background-color: Red;
 }
 
-navLeft{
+#navLeft{
     background-color: green;
     display: flex;
 }
 
-navLeft ul a {
+#navLeft ul a {
 text-decoration:  none;
 display: block;
 }
 
-navRight{
+#navRight{
     background-color: blue;
     display: flex;
 }
+
+#navRight ul a {
+    text-decoration:  none;
+    display: block;
+    }
