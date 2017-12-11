@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
 
 body {
     margin : 0;
@@ -51,12 +52,30 @@ body {
     background-image: url("https://www.aisquared.com/wp-content/uploads/2014/05/libraries.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height :250px; 
+    
+    height :500px; 
+
 
 }
 
-/* #searchContent{
-    margin : 15px;
-    
-} */
+.mainContent{
+margin-top: 10%;
+}
 
+.mainDisplay {
+    color:rgb(0, 131, 131);
+    font-family: 'Niconne', cursive;
+    font-size: 55px;
+}
+
+.searchTab {
+    background-color: white;
+    padding-bottom: 15px;
+  
+ 
+    
+}
+
+.searchStyle{
+    margin-top : 10px;
+}
